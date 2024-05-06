@@ -1,6 +1,5 @@
 import java.util.Objects;
-public class Author {
-    class Author {
+class Author {
         private String firstName;
         private String lastName;
 
@@ -33,4 +32,4 @@ public class Author {
             return Objects.hash(firstName, lastName);
         }
     }
-}
+
